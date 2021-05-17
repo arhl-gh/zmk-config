@@ -76,7 +76,7 @@ hm: homerow_mods {
                         bindings = <
    &trans &kp LS(EQUAL)  &kp EQUAL  &kp RA(LBKT)  &kp RA(RBKT)  &kp LS(N5)   &kp RBKT &kp LS(RBKT)  &kp BSLH &kp LS(N4) &kp RA(N3) &trans
    &trans &kp RA(N4)    &kp LS(N6) &kp LS(N2)    &kp RA(GRAVE)    &kp MINUS      &kp LS(N0) &kp LS(DOT) &kp LS(N7)        &kp LS(N1) &kp LS(MINUS) &trans
-   &trans &kp RA(SQT)    &kp RA(BSLH) &kp LS(N8)    &kp LS(N9)    &kp RA(N1)  &kp LS(LBKT)    &kp RA(N2)    &kp LT          &kp LS(LT)   &kp RA(N6) &trans
+   &trans &kp RA(SQT)    &kp RA(BSLH) &kp LS(N8)    &kp LS(N9)    &kp RA(N1)  &kp LS(LBKT)    &kp RA(N2)    &kp NON_US_BSLH          &kp LS(NON_US_BSLH)   &kp RA(N6) &trans
                                    &kp LGUI &trans &kp SPACE   &kp RET &trans &kp RALT
                         >;
                 };
