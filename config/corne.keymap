@@ -33,9 +33,9 @@ hm: homerow_mods {
 // | |  /  |  Q  |  J  |  K  |  X  |   |  B  |  M   |  W  |  V  |  Z  |  |
 //                    | TAB | ESP | LWR |   | RSE  | ENT | ESC |
                         bindings = <
-   &kp LBKT   &kp DOT &kp COMMA &kp SEMI &kp P &kp Y   &kp F &kp G  &kp C     &kp H   &kp L    &kp SQT
-   &kp BSPC &hm LGUI A &hm LALT O &hm LSHFT E &hm LCTRL U &kp I   &kp D &hm LCTRL R  &hm LSHFT T     &hm LALT N   &hm LGUI S &mo 3
-   &trans &kp FSLH &kp Q &kp J &kp K &kp X   &kp B &kp M  &kp W &kp V &kp Z &trans
+   &kp LBKT &kp DOT     &kp COMMA   &kp SEMI    &kp P       &kp Y   &kp F &kp G       &kp C       &kp H      &kp L      &kp SQT
+   &kp BSPC &hm LGUI A  &hm LALT O  &hm LSHFT E &hm LCTRL U &kp I   &kp D &hm LCTRL R &hm LSHFT T &hm LALT N &hm LGUI S &mo 3
+   &trans   &kp FSLH    &kp Q       &kp J       &kp K       &kp X   &kp B &kp M       &kp W       &kp V      &kp Z      &trans
                   &mo 1 &kp TAB &lt 3 SPACE   &lt 3 RET &kp ESC &mo 2
                         >;
                 };
@@ -76,7 +76,7 @@ hm: homerow_mods {
                         bindings = <
    &trans &kp LS(EQUAL)  &kp EQUAL  &kp RA(LBKT)  &kp RA(RBKT)  &kp LS(N5)   &kp RBKT &kp LS(RBKT)  &kp BSLH &kp LS(N4) &kp RA(N3) &trans
    &trans &kp RA(N4)    &kp LS(N6) &kp LS(N2)    &kp RA(GRAVE)    &kp MINUS      &kp LS(N0) &kp LS(DOT) &kp LS(N7)        &kp LS(N1) &kp LS(MINUS) &trans
-   &trans &kp RA(SQT)    &kp RA(BSLH) &kp LS(N8)    &kp LS(N9)    &kp RA(N1)  &kp LS(LBKT)    &kp RA(N2)    &kp PIPE          &kp LS(PIPE)   &kp RA(N6) &trans
+   &trans &kp RA(SQT)    &kp RA(BSLH) &kp LS(N8)    &kp LS(N9)    &kp RA(N1)  &kp LS(LBKT)    &kp RA(N2)    &kp LT          &kp LS(LT)   &kp RA(N6) &trans
                                    &kp LGUI &trans &kp SPACE   &kp RET &trans &kp RALT
                         >;
                 };
