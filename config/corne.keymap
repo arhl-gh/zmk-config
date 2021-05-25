@@ -28,9 +28,9 @@ hm: homerow_mods {
 
                 default_layer {
 // -----------------------------------------------------------------------------------------
-// | [ |  .  |  ,  |  ;  |  P  |  Y  |   |  F  |  G   |  C  |  H  |  L  | ' |
-// | BKSP |  LGUI/A  |  ALT/O  |  SHFT/E  |  CTRL/U  |  I  |   |  D  |  CTRL/R   |  SHFT/T  |  ALT/N  |  LGUI/S  | RSE |
-// | |  /  |  Q  |  J  |  K  |  X  |   |  B  |  M   |  W  |  V  |  Z  |  |
+// | ` |  Q  |  W  |  F  |  P  |  G  |   |  J  |  L   |  U  |  Y  |  Ñ  | ' |
+// | BKSP |  LGUI/A  |  ALT/r  |  SHFT/s  |  CTRL/t  |  d  |   |  h  |  CTRL/n   |  SHFT/e  |  ALT/i  |  LGUI/o  | RSE |
+// | |  z  |  x  |  c  |  v  |  b  |   |  k  |  m   |  ,  |  .  |  -  |  |
 //                    | TAB | ESP | LWR |   | RSE  | ENT | ESC |
                         bindings = <
    &kp LBKT &kp Q &kp W   &kp F    &kp P       &kp G   &kp J &kp L       &kp U       &kp Y      &kp SEMI      &kp SQT
