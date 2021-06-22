@@ -35,7 +35,7 @@ hm: homerow_mods {
                         bindings = <
    &kp LBKT &kp Y &kp P   &kp O    &kp U       &kp J   &kp K &kp D       &kp L       &kp C      &kp W      &kp SQT
    &kp BSPC &hm LGUI I  &hm LALT N  &hm LSHFT E &hm LCTRL A &kp COMMA   &kp M &hm LCTRL H &hm LSHFT T &hm LALT S &hm LGUI R &mo 3
-   &RA(N2)   &kp Q    &kp Z       &kp FSLH       &kp DOT       &kp SEMI   &kp B &kp F   &kp G   &kp V   &kp X      &trans
+   &kp RA(N2)   &kp Q    &kp Z       &kp FSLH       &kp DOT       &kp SEMI   &kp B &kp F   &kp G   &kp V   &kp X      &trans
                   &mo 3 &kp ESC &lt 1 SPACE &lt 2 TAB &kp RET &mo 3
                         >;
                 };
