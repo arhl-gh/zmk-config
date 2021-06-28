@@ -47,7 +47,7 @@ hm: homerow_mods {
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
     &trans &trans &trans &trans &trans &trans &kp EXCL &kp STAR &kp LPAR &kp RA(LBKT) &kp RA(RBKT) &trans
-   &trans &bt PLUS &bt EQUAL &bt RA(GRAVE) &bt RA(Q) &trans         &kp LEFT &kp DOWN &kp UP &kp RIGHT &kp DLLR &trans 
+   &trans &kp PLUS &kp EQUAL &kp RA(GRAVE) &kp RA(Q) &trans         &kp LEFT &kp DOWN &kp UP &kp RIGHT &kp DLLR &trans 
     &trans &trans &trans &trans &trans &trans &kp AT &kp RA(SQT) &kp RA(BSLH) &kp NON_US_BSLH &kp LS(NON_US_BSLH) &trans
                                         &kp LGUI     &trans       &kp SPACE         &kp RET &trans &kp RALT
                         >;
@@ -62,7 +62,7 @@ hm: homerow_mods {
                         bindings = <
    &trans    &kp N6   &kp N7   &kp N8 &kp N9    &kp N0            &trans &trans &trans &trans &trans &trans  
    &trans    &kp N1   &kp N2   &kp N3 &kp N4    &kp N5           &trans &trans &trans &trans &trans &trans  
-   &kp  ESC  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT   &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp BSPC
+   &trans  &kp RBKT  &kp RBRC  &trans  &kp AMPS  &kp RPAR   &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp BSPC
                                    &kp LGUI &trans &kp SPACE   &kp RET &trans &kp RALT
                         >;
                 };
