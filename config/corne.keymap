@@ -46,9 +46,9 @@ hm: homerow_mods {
 // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-    &trans &trans &trans &trans &trans &trans &kp EXCL &kp STAR &kp LPAR &kp RA(LBKT) &kp RA(RBKT) &trans
-   &trans &kp PLUS &kp EQUAL &kp RA(GRAVE) &kp RA(Q) &trans         &kp LEFT &kp UP &kp DOWN &kp RIGHT &kp DLLR &trans 
-    &trans &trans &trans &trans &trans &trans &kp AT &kp RA(SQT) &kp RA(BSLH) &kp NON_US_BSLH &kp LS(NON_US_BSLH) &trans
+    &trans &trans &trans &kp PLUS &kp EQUAL &trans &kp EXCL &kp STAR &kp LPAR &kp RA(LBKT) &kp RA(RBKT) &trans
+   &trans &trans &trans &kp RA(GRAVE) &kp RA(Q) &trans         &kp LEFT &kp UP &kp DOWN &kp RIGHT &kp DLLR &trans 
+    &trans &trans &trans &kp RA(NUMBER_4) &kp NON_US_BSLH &trans &kp UNDER &kp RA(SQT) &kp RA(BSLH) &kp NON_US_BSLH &kp LS(NON_US_BSLH) &trans
                                         &kp LGUI     &trans       &kp SPACE         &kp RET &trans &kp RALT
                         >;
                 };
@@ -60,9 +60,9 @@ hm: homerow_mods {
 // | SHFT |     |     |     |     |     |   |  _  |  +  |  [  |  ]  |  \  |  ~   | // TODO: Fix this row when &mkp is committed
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &trans    &kp N6   &kp N7   &kp N8 &kp N9    &kp N0            &trans &trans &trans &trans &trans &trans  
-   &trans    &kp N1   &kp N2   &kp N3 &kp N4    &kp N5           &trans &trans &trans &trans &trans &trans  
-   &trans  &kp RBKT  &kp RBRC  &trans  &kp AMPS  &kp RPAR   &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp BSPC
+   &trans    &kp N6   &kp N7   &kp N8 &kp N9    &kp N0            &trans &kp SQT &LBKT &trans &trans &trans  
+   &trans    &kp N1   &kp N2   &kp N3 &kp N4    &kp N5           &trans &kp AT &kp MINUS &trans &trans &trans  
+   &trans  &kp RBKT  &kp RBRC  &trans  &kp AMPS  &kp RPAR   &trans &kp PRCNT  &kp CARET &trans &trans &trans
                                    &kp LGUI &trans &kp SPACE   &kp RET &trans &kp RALT
                         >;
                 };
