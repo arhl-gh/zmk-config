@@ -60,7 +60,7 @@ hm: homerow_mods {
 // | SHFT |     |     |     |     |     |   |  _  |  +  |  [  |  ]  |  \  |  ~   | // TODO: Fix this row when &mkp is committed
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &trans    &kp N6   &kp N7   &kp N8 &kp N9    &kp N0            &trans &kp SQT &kp LBKT &trans &trans &trans  
+   &trans    &kp N6   &kp N7   &kp N8 &kp N9    &kp N0            &trans &kp SQT &kp LBKT &kp BSLH &trans &trans  
    &trans    &kp N1   &kp N2   &kp N3 &kp N4    &kp N5           &trans &kp AT &kp MINUS &trans &trans &trans  
    &trans  &kp RBKT  &kp RBRC  &trans  &kp AMPS  &kp RPAR   &trans &kp PRCNT  &kp CARET &trans &trans &trans
                                    &kp LGUI &trans &kp SPACE   &kp RET &trans &kp RALT
