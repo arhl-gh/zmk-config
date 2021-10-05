@@ -35,8 +35,8 @@ hm: homerow_mods {
                         bindings = <
    &kp MINUS &kp Y &kp P   &kp O    &kp U       &kp J   &kp K &kp D       &kp L       &kp C      &kp W      &kp LBKT
    &kp BSPC &hm LGUI I  &hm LALT N  &hm LSHFT E &hm LCTRL A &kp COMMA   &kp M &hm LCTRL H &hm LSHFT T &hm LALT S &hm LGUI R &kp SQT
-   &mo 3   &kp Q    &kp Z       &kp FSLH       &kp DOT       &kp SEMI   &kp B &kp F   &kp G   &kp V   &kp X      &kp DELETE
-                  &kp RA(NUMBER_2)  &kp ESC &lt 1 SPACE &lt 2 TAB &kp RET &kp RA(NUMBER_4)
+   &mo 3   &kp Q    &kp Z       &kp FSLH       &kp DOT       &kp SEMI   &kp B &kp F   &kp G   &kp V   &kp X      &kp CAPSLOCK
+                  &kp RA(NUMBER_2)  &kp ESC &lt 1 SPACE &lt 2 TAB &kp RET &kp DELETE
                         >;
                 };
                 lower_layer {
@@ -49,7 +49,7 @@ hm: homerow_mods {
     &trans &trans &trans &trans &trans &trans                   &kp RA(LBKT) &kp STAR &kp LPAR &kp HOME &kp END &kp RA(NUMBER_1)
    &trans &trans &trans &kp RA(GRAVE) &trans &trans               &kp PRCNT &kp UP &kp DOWN &kp LEFT &kp RIGHT &trans
     &trans &trans &trans &trans &trans &trans    &kp RA(RBKT) &kp RA(SQT) &kp RA(BSLH) &kp NON_US_BSLH &kp LS(NON_US_BSLH) &trans
-                                   &trans &trans &trans   &kp CARET &kp RA(NUMBER_3) &trans
+                                   &trans &trans &trans   &kp CARET &kp RA(NUMBER_3) &kp RA(NUMBER_4)
                         >;
                 };
 
