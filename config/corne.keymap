@@ -63,7 +63,7 @@ hm: homerow_mods {
    &kp PLUS    &kp N6   &kp N7   &kp N8 &kp N9    &kp N0            &trans &trans &trans &kp BSLH &trans &trans  
    &trans    &kp N1   &kp N2   &kp N3 &kp N4    &kp N5           &trans &kp CARET &kp DLLR &trans &trans &trans  
    &trans  &kp RBKT  &kp RBRC  &trans  &kp AMPS  &kp RPAR   &trans &trans  &trans &trans &trans &trans
-                                        &kp EQUAL     &kp AT       &kp EXCL         &trans &trans &trans
+                                        &kp EQUAL     &kp AT       &trans         &trans &trans &trans
                         >;
                 };
 
