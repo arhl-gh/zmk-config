@@ -26,6 +26,7 @@
         label = "LEFT_POSITIONAL_HOLD_TAP";
         #binding-cells = <2>;
         flavor = "tap-preferred";
+        tapping-term-ms = <150>;
         quick_tap_ms = <100>;
         bindings = <&kp>, <&kp>;
         hold-trigger-key-positions = <6 7 8 9 10 11>;
