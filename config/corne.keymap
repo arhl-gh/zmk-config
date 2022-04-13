@@ -15,7 +15,7 @@
 hm: homerow_mods {
 	    compatible = "zmk,behavior-hold-tap";
 	    label = "HOMEROW_MODS";
-#binding-cells = <2>;
+        #binding-cells = <2>;
 	    tapping-term-ms = <150>;
 	    quick_tap_ms = <0>;
 	    flavor = "tap-preferred";
@@ -25,10 +25,10 @@ hm: homerow_mods {
         compatible = "zmk,behavior-hold-tap";
         label = "LEFT_POSITIONAL_HOLD_TAP";
         #binding-cells = <2>;
-        flavor = "hold-preferred";
+        flavor = "tap-preferred";
         quick_tap_ms = <100>;
         bindings = <&kp>, <&kp>;
-        hold-trigger-key-positions = <7 8 9 10 11 12>;
+        hold-trigger-key-positions = <6 7 8 9 10 11>;
     };
 };
 
