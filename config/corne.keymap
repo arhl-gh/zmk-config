@@ -47,7 +47,7 @@
 };
 
 &caps_word {
-    continue_list = <BSPC QUESTION>; //Keep the capslock behavior after deleting or using underscore, inactivates with any other keypress
+    continue-list = <BSPC QUESTION>; //Keep the capslock behavior after deleting or using underscore, inactivates with any other keypress
     };
 
 //|-----------|------|------|------|------|--------------|---|------------|-------|------|------|-------|----------|
