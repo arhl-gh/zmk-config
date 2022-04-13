@@ -15,7 +15,7 @@
 #define bluetooth_layer 3
 
 &caps_word {
-    continue-list = <BSPC QUESTION>; 
+    continue-list = <BSPC LS(FSLH)>; 
     };
 
 / {
