@@ -29,7 +29,17 @@
         tapping-term-ms = <150>;
         quick_tap_ms = <100>;
         bindings = <&kp>, <&kp>;
-        hold-trigger-key-positions = <6 7 8 9 10 11>;
+        hold-trigger-key-positions = <6 7 8 9 10 11 18 19 20 21 22 23 30 31 32 33 34 38 39 40>;
+    };
+    rh_pht: right_hand_positional_hold_tap {
+        compatible = "zmk,behavior-hold-tap";
+        label = "RIGHT_POSITIONAL_HOLD_TAP";
+        #binding-cells = <2>;
+        flavor = "tap-preferred";
+        tapping-term-ms = <150>;
+        quick_tap_ms = <100>;
+        bindings = <&kp>, <&kp>;
+        hold-trigger-key-positions = <0 1 2 3 4 5 12 13 14 15 16 17 25 26 27 28 29 35 36 37>;
     };
 };
 
@@ -42,6 +52,7 @@
 //|           |      |      | @    | Esc  | Space\ToLay2 |   | Tab\ToLay1 | Enter | Supr |      |       |          |
 //|-----------|------|------|------|------|--------------|---|------------|-------|------|------|-------|----------|
 //| Shifted   |      |      |      |      |              |   |            |       |      |      |       |          |
+
 //|-----------|------|------|------|------|--------------|---|------------|-------|------|------|-------|----------|
 //| ?         | Y    | P    | O    | U    | J            |   | K          | D     | L    | C    | W     | ^        |
 //| Backspace | I    | N    | E    | A    | ;            |   | M          | H     | T    | S    | R     | dieresis |
@@ -78,7 +89,7 @@
                 default_layer {
                         bindings = <
    &kp MINUS &kp Y &kp P   &kp O    &kp U       &kp J   &kp K &kp D       &kp L       &kp C      &kp W      &kp LBKT
-   &kp BSPC &lh_pht LGUI I  &lh_pht LALT N  &lh_pht LSHFT E &lh_pht LCTRL A &kp COMMA   &kp M &lh_pht LCTRL H &lh_pht LSHFT T &lh_pht LALT S &lh_pht LGUI R &kp SQT
+   &kp BSPC &lh_pht LGUI I  &lh_pht LALT N  &lh_pht LSHFT E &lh_pht LCTRL A &kp COMMA   &kp M &rh_pht LCTRL H &rh_pht LSHFT T &rh_pht LALT S &rh_pht LGUI R &kp SQT
    &mo 3   &kp Q    &kp Z       &kp FSLH       &kp DOT       &kp SEMI   &kp B &kp F   &kp G   &kp V   &kp X      &caps_word
                   &kp RA(NUMBER_2)  &kp ESC &lt 1 SPACE &lt 2 TAB &kp RET &kp DELETE
                         >;
