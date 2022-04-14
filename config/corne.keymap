@@ -34,8 +34,7 @@
         compatible = "zmk,behavior-hold-tap";
         label = "LEFT_POSITIONAL_HOLD_TAP";
         #binding-cells = <2>;
-        /*flavor = "tap-preferred";*/
-        flavor = "tap-unless-interrupted";
+        flavor = "tap-preferred";
         tapping-term-ms = <150>;
         quick_tap_ms = <100>;
         bindings = <&kp>, <&kp>;
@@ -46,8 +45,7 @@
         compatible = "zmk,behavior-hold-tap";
         label = "RIGHT_POSITIONAL_HOLD_TAP";
         #binding-cells = <2>;
-        /*flavor = "tap-preferred";*/
-        flavor = "tap-unless-interrupted";
+        flavor = "tap-preferred";
         tapping-term-ms = <150>;
         quick_tap_ms = <100>;
         bindings = <&kp>, <&kp>;
@@ -102,7 +100,8 @@
                 base_layer {
                         bindings = <
    &kp MINUS &kp Y &kp P   &kp O    &kp U       &kp J   &kp K &kp D       &kp L       &kp C      &kp W      &kp LBKT
-   &kp BSPC &lh_pht LGUI I  &lh_pht LALT N  &lh_pht LSHFT E &lh_pht LCTRL A &kp COMMA   &kp M &rh_pht LCTRL H &rh_pht LSHFT T &rh_pht LALT S &rh_pht LGUI R &kp SQT
+   /*&kp BSPC &lh_pht LGUI I  &lh_pht LALT N  &lh_pht LSHFT E &lh_pht LCTRL A &kp COMMA   &kp M &rh_pht LCTRL H &rh_pht LSHFT T &rh_pht LALT S &rh_pht LGUI R &kp SQT*/
+   &kp BSPC &hm LGUI I  &hm LALT N  &hm LSHFT E &hm LCTRL A &kp COMMA   &kp M &hm LCTRL H &hm LSHFT T &hm LALT S &hm LGUI R &kp SQT
    &mo 3   &kp Q    &kp Z       &kp FSLH       &kp DOT       &kp SEMI   &kp B &kp F   &kp G   &kp V   &kp X      &kp CAPSLOCK
                   &kp RA(NUMBER_2)  &kp ESC &lt 1 SPACE &lt 2 TAB &kp RET &kp DELETE
                         >;
