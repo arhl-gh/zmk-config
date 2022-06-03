@@ -106,7 +106,7 @@
    &kp BSPC &hm LGUI I  &hm LALT N  &hm LSHFT E &hm LCTRL A &kp COMMA   &kp M &hm LCTRL H &hm LSHFT T &hm LALT S &hm LGUI R &kp SQT
    &mo 3   &kp Q    &kp Z       &kp FSLH       &kp DOT       &kp SEMI   &kp B &kp F   &kp G   &kp V   &kp X      &kp CAPSLOCK
                   /*&kp RA(NUMBER_2)  &lt 1 ESC &lt 1 SPACE &lt 2 TAB &kp RET &kp DELETE*/
-                  &kp BSPC   &lt 4 ESC &lt 1 SPACE &lt 2 TAB &lt 2 RET &kp DELETE
+                  &kp BSPC   &lt 4 ESC &lt 1 SPACE &lt 2 TAB &lt 5 RET &kp DELETE
                         >;
                 };
                 navig_layer {
@@ -143,6 +143,15 @@
                                    &trans &trans &trans   &trans &kp CARET &kp RA(NUMBER_4)
                         >;
                 };
+                add_symbols_layer {
+                        bindings = <
+   &kp PLUS    &kp N6   &kp N7   &kp N8 &kp N9    &kp N0            &trans &trans &trans &kp BSLH &trans &trans  
+   &trans    &kp CARET   &kp AT   &kp RA(NUMBER_4) &kp AMPS    &kp N5           &trans &trans &kp RA(NUMBER_3) &trans &trans &trans  
+   &trans  &kp RBKT  &kp RBRC  &trans  &kp AMPS  &kp RPAR   &trans &trans  &trans &trans &trans &trans
+                                        &kp AT     &kp EXCL       &trans         &trans &trans &trans
+                        >;
+                };
+
 
         };
 };
