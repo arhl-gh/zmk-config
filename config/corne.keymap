@@ -122,8 +122,8 @@
                         bindings = <
    /*&kp PLUS    &kp N6   &kp N7   &kp N8 &kp N9    &kp N0            &trans &trans &trans &kp BSLH &trans &trans  */
    &trans    &kp N6   &kp N7   &kp N8 &kp N9    &kp RBKT            &trans &trans &trans &kp BSLH &trans &trans  
-   &trans    &kp RPAR   &kp N4   &kp N5 &kp N6    &kp RBRC           &trans &trans &kp RA(NUMBER_3) &trans &trans &trans  
-   &trans  &kp RBKT  &kp N1  &kp N2  &kp N3  &kp AMPS   &trans &trans  &trans &trans &trans &trans
+   &trans    &kp RPAR   &kp N4   &kp N5 &kp N6    &kp AMPS           &trans &trans &kp RA(NUMBER_3) &trans &trans &trans  
+   &trans  &kp RBKT  &kp N1  &kp N2  &kp N3  &kp RBRC   &trans &trans  &trans &trans &trans &trans
                                         &trans     &trans       &kp N0         &trans &trans &trans
                         >;
                 };
