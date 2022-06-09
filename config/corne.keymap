@@ -138,9 +138,9 @@
                 };
                 symbols_layer {
                         bindings = <
-    &trans &trans &trans &trans &trans &trans                   &kp RA(LBKT) &kp STAR &kp LPAR &kp HOME &kp END &kp RA(NUMBER_1)
-   &trans &trans &trans &trans &trans &trans               &kp PRCNT &kp RA(NUMBER_2) &kp RA(NUMBER_1) &kp PRCNT &kp DLLR &kp DLLR
-    &trans &trans &trans &trans &trans &trans    &kp RA(RBKT) &kp RA(SQT) &kp RA(BSLH) &kp NON_US_BSLH &kp LS(NON_US_BSLH) &trans
+                            &trans &trans &trans &trans &trans &trans    &trans &kp PRCNT &kp DLLR &trans &trans &trans
+                            &trans &trans &trans &trans &trans &trans    &trans &kp RA(NUMBER_2) &kp AT &kp HOME &kp END &trans
+                            &trans &trans &trans &trans &trans &trans    &trans &kp CARET &kp RA(NUMBER_1) &kp NON_US_BSLH &kp LS(NON_US_BSLH) &trans
                                    &trans &trans &trans   &trans &kp CARET &kp RA(NUMBER_4)
                         >;
                 };
