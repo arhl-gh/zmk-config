@@ -45,7 +45,7 @@
             label = "TAP_DANCE_1";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&kp UP>, <&kp PG_UP>;
+            bindings = <&kp UP>, <&kp PAGE_UP>;
         };
 
         td2: tap_dance_2 {
@@ -53,7 +53,7 @@
             label = "TAP_DANCE_2";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&kp DOWN>, <&kp PG_DOWN>;
+            bindings = <&kp DOWN>, <&kp PAGE_DOWN>;
         };
 
         td3: tap_dance_3 {
