@@ -32,26 +32,14 @@
 	    bindings = <&kp>, <&kp>;
     };
 
-    lh_pht: left_hand_positional_hold_tap {
-        compatible = "zmk,behavior-hold-tap";
-        label = "LEFT_POSITIONAL_HOLD_TAP";
-        #binding-cells = <2>;
-        flavor = "tap-preferred";
-        tapping-term-ms = <150>;
-        quick_tap_ms = <100>;
-        bindings = <&kp>, <&kp>;
-        hold-trigger-key-positions = <6 7 8 9 10 11 18 19 20 21 22 23 30 31 32 33 34 38 39 40>;
-    };
-
-    rh_pht: right_hand_positional_hold_tap {
-        compatible = "zmk,behavior-hold-tap";
-        label = "RIGHT_POSITIONAL_HOLD_TAP";
-        #binding-cells = <2>;
-        flavor = "tap-preferred";
-        tapping-term-ms = <150>;
-        quick_tap_ms = <100>;
-        bindings = <&kp>, <&kp>;
-        hold-trigger-key-positions = <0 1 2 3 4 5 12 13 14 15 16 17 25 26 27 28 29 35 36 37>;
+    behaviors {
+        td0: tap_dance_0 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_0";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp DELETE>, <&kp CAPSLOCK>, <&kp N3>;
+        };
     };
 };
 
@@ -106,7 +94,7 @@
    &kp BSPC &hm LGUI I  &hm LALT N  &hm LSHFT E &hm LCTRL A &kp COMMA   &kp M &hm LCTRL H &hm LSHFT T &hm LALT S &hm LGUI R &kp SQT
    &mo 3   &kp Q    &kp Z       &kp FSLH       &kp DOT       &kp SEMI   &kp B &kp F   &kp G   &kp V   &kp X      &kp CAPSLOCK
                   /*&kp RA(NUMBER_2)  &lt 1 ESC &lt 1 SPACE &lt 2 TAB &kp RET &kp DELETE*/
-                  &to 2   &lt 4 ESC &lt 1 SPACE &lt 2 TAB &lt 5 RET &kp DELETE
+                  &to 2   &lt 4 ESC &lt 1 SPACE &lt 2 TAB &lt 5 RET &kp td0
                         >;
                 };
                 navig_layer {
