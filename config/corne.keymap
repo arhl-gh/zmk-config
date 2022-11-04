@@ -15,6 +15,7 @@
 #define bluetooth_layer 3
 #define symbols_layer 4
 #define fkeys_layer 5
+#define addsymbols_layer 6
 
 &caps_word {
     continue-list = <BSPC LS(FSLH)>; 
@@ -121,10 +122,10 @@
                 base_layer {
                         bindings = <
    &kp MINUS &kp Y &kp P   &kp O    &kp U       &kp J   &kp K &kp D       &kp L       &kp C      &kp W      &kp LBKT
-   &kp BSPC &hm LGUI I  &hm LALT N  &hm LSHFT E &hm LCTRL A &kp COMMA   &kp M &hm LCTRL H &hm LSHFT T &hm LALT S &hm LGUI R &kp SQT
-   &mo 3   &kp Q    &kp Z       &kp FSLH       &kp DOT       &kp SEMI   &kp B &kp F   &kp G   &kp V   &kp X      &kp CAPSLOCK
+   &trans &hm LGUI I  &hm LALT N  &hm LSHFT E &hm LCTRL A &kp COMMA   &kp M &hm LCTRL H &hm LSHFT T &hm LALT S &hm LGUI R &kp SQT
+   &mo 3   &kp Q    &kp Z       &kp FSLH       &kp DOT       &kp SEMI   &kp B &kp F   &kp G   &kp V   &kp X      &trans
                   /*&to 2   &lt 4 ESC &lt 1 SPACE &lt 2 TAB &lt 5 RET &td0*/
-                  &kp ESC   &lt 4 BSPC &lt 1 SPACE &lt 2 TAB &lt 5 RET &td0
+                  &kp ESC   &lt 4 BSPC &lt 1 SPACE &lt 2 TAB &lt 6 RET &td0
                         >;
                 };
                 navig_layer {
@@ -157,6 +158,16 @@
                 };
 
                 symbols_layer {
+                        bindings = <
+                            &trans &trans &trans &trans &trans &trans    &kp CARET &kp PRCNT &kp MINUS &trans &trans &trans
+                            &trans &trans &trans &trans &trans &trans    &kp RA(NUMBER_3) &kp RBRC &kp AT &kp NON_US_BSLH &kp LS(NON_US_BSLH) &trans
+                            &trans &trans &trans &trans &trans &trans    &trans &kp RA(NUMBER_4) &kp RA(NUMBER_1) &kp PLUS &kp EQUAL &trans
+                                   &trans &trans &trans                  &kp AMPS &kp RA(NUMBER_2) &trans
+                        >;
+                };
+
+
+                addsymbols_layer {
                         bindings = <
                             &trans &trans &trans &trans &trans &trans    &kp CARET &kp PRCNT &kp MINUS &trans &trans &trans
                             &trans &trans &trans &trans &trans &trans    &kp RA(NUMBER_3) &kp RBRC &kp AT &kp NON_US_BSLH &kp LS(NON_US_BSLH) &trans
