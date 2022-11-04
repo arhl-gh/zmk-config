@@ -14,8 +14,8 @@
 #define numbers_layer 2
 #define bluetooth_layer 3
 #define symbols_layer 4
-#define fkeys_layer 5
-#define addsymbols_layer 6
+#define addsymbols_layer 5
+#define fkeys_layer 6
 
 &caps_word {
     continue-list = <BSPC LS(FSLH)>; 
@@ -125,7 +125,7 @@
    &trans &hm LGUI I  &hm LALT N  &hm LSHFT E &hm LCTRL A &kp COMMA   &kp M &hm LCTRL H &hm LSHFT T &hm LALT S &hm LGUI R &kp SQT
    &mo 3   &kp Q    &kp Z       &kp FSLH       &kp DOT       &kp SEMI   &kp B &kp F   &kp G   &kp V   &kp X      &trans
                   /*&to 2   &lt 4 ESC &lt 1 SPACE &lt 2 TAB &lt 5 RET &td0*/
-                  &kp ESC   &lt 4 BSPC &lt 1 SPACE &lt 2 TAB &lt 6 RET &td0
+                  &kp ESC   &lt 4 BSPC &lt 1 SPACE &lt 2 TAB &lt 5 RET &td0
                         >;
                 };
                 navig_layer {
