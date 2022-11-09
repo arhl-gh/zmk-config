@@ -46,31 +46,8 @@
             label = "TAP_DANCE_1";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&kp RA(SQT)>, <&kp PAGE_UP>;
-        };
-
-        td2: tap_dance_2 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_2";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&kp RA(BSLH)>, <&kp PAGE_DOWN>;
-        };
-
-        td3: tap_dance_3 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_3";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&kp RA(LBKT)>, <&kp HOME>;
-        };
-
-        td4: tap_dance_4 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_4";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&kp RA(RBKT)>, <&kp END>;
+            /*bindings = <&kp DELETE>, <&kp CAPSLOCK>, <&kp N3>;*/
+            bindings = <&mt BSPC BSPC>, <&mo 4>;
         };
         
     };
@@ -125,7 +102,8 @@
    &trans &hm LGUI I  &hm LALT N  &hm LSHFT E &hm LCTRL A &kp COMMA   &kp M &hm LCTRL H &hm LSHFT T &hm LALT S &hm LGUI R &trans
    &mo 3   &kp Q    &kp Z       &kp FSLH       &kp DOT       &kp SEMI   &kp B &kp F   &kp G   &kp V   &kp X      &trans
                   /*&to 2   &lt 4 ESC &lt 1 SPACE &lt 2 TAB &lt 5 RET &td0*/
-                  &kp ESC   &lt 4 BSPC &lt 1 SPACE &lt 2 TAB &lt 5 RET &td0
+                  /*&kp ESC   &lt 4 BSPC &lt 1 SPACE &lt 2 TAB &lt 5 RET &td0*/
+                  &kp ESC   &td1 &lt 1 SPACE &lt 2 TAB &lt 5 RET &td0
                         >;
                 };
                 navig_layer {
