@@ -46,8 +46,31 @@
             label = "TAP_DANCE_1";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            /*bindings = <&kp DELETE>, <&kp CAPSLOCK>, <&kp N3>;*/
-            bindings = <&mt BSPC BSPC>, <&mo 4>;
+            bindings = <&kp RA(SQT)>, <&kp PAGE_UP>;
+        };
+
+        td2: tap_dance_2 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_2";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp RA(BSLH)>, <&kp PAGE_DOWN>;
+        };
+
+        td3: tap_dance_3 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_3";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp RA(LBKT)>, <&kp HOME>;
+        };
+
+        td4: tap_dance_4 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_4";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp RA(RBKT)>, <&kp END>;
         };
         
     };
@@ -103,7 +126,7 @@
    &mo 3   &kp Q    &kp Z       &kp FSLH       &kp DOT       &kp SEMI   &kp B &kp F   &kp G   &kp V   &kp X      &trans
                   /*&to 2   &lt 4 ESC &lt 1 SPACE &lt 2 TAB &lt 5 RET &td0*/
                   /*&kp ESC   &lt 4 BSPC &lt 1 SPACE &lt 2 TAB &lt 5 RET &td0*/
-                  &kp ESC   &td1 &lt 1 SPACE &lt 2 TAB &lt 5 RET &td0
+                  &kp ESC   &td1 &lt 1 SPACE &lt 2 TAB &lt 5 RET &lt 6 DEL
                         >;
                 };
                 navig_layer {
@@ -139,7 +162,7 @@
                         bindings = <
                             &trans &trans &trans &trans &trans &trans    &kp CARET &kp PRCNT &kp MINUS &kp BSLH &trans &trans
                             &trans &trans &trans &trans &trans &trans    &kp RA(NUMBER_3) &kp RBRC &kp AT &kp SQT  &kp LBKT &trans
-                            &trans &trans &trans &trans &trans &trans    &trans &kp RA(NUMBER_4) &kp RA(NUMBER_1) &kp PLUS &kp EQUAL &trans
+                            &trans &trans &trans &trans &trans &trans    &trans &kp RA(NUMBER_4) &kp RA(NUMBER_1) &kp LS(LBKT) &kp LS(SQT) &trans
                                    &trans &trans &trans                  &kp AMPS &kp RA(NUMBER_2) &trans
                         >;
                 };
@@ -147,9 +170,9 @@
 
                 addsymbols_layer {
                         bindings = <
-                            &trans &trans &trans &trans &trans &trans    &kp CARET &kp PRCNT &kp MINUS &trans &trans &trans
-                            &trans &kp CARET &kp LS(MINUS) &kp NON_US_BSLH &kp LS(NON_US_BSLH) &trans    &kp RA(NUMBER_3) &kp RBRC &kp AT &kp NON_US_BSLH &kp LS(NON_US_BSLH) &trans
-                            &trans &trans &trans &trans &trans &trans    &trans &kp RA(NUMBER_4) &kp RA(NUMBER_1) &kp PLUS &kp EQUAL &trans
+                            &trans &trans &kp PLUS &kp NON_US_BSLH &kp LS(NON_US_BSLH) &trans    &kp CARET &kp PRCNT &kp MINUS &trans &trans &trans
+                            &trans &kp CAPSLOCK &kp LS(MINUS) &kp DLLR &kp CARET &trans    &kp RA(NUMBER_3) &kp RBRC &kp AT &kp NON_US_BSLH &kp LS(NON_US_BSLH) &trans
+                            &trans &trans &kp EQUAL &trans &trans &trans    &trans &kp RA(NUMBER_4) &kp RA(NUMBER_1) &kp PLUS &kp EQUAL &trans
                                    &trans &trans &trans                  &kp AMPS &kp RA(NUMBER_2) &trans
                         >;
                 };
