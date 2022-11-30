@@ -126,7 +126,7 @@
    &mo 3   &kp Q    &kp Z       &kp FSLH       &kp DOT       &kp SEMI   &kp B &kp F   &kp G   &kp V   &kp X      &trans
                   /*&to 2   &lt 4 ESC &lt 1 SPACE &lt 2 TAB &lt 5 RET &td0*/
                   /*&kp ESC   &lt 4 BSPC &lt 1 SPACE &lt 2 TAB &lt 5 RET &td0*/
-                  &kp ESC   &td1 &lt 1 SPACE &lt 2 TAB &lt 5 RET &lt 6 DEL
+                  &kp ESC   &lt 4 BSPC &lt 1 SPACE &lt 2 TAB &lt 5 RET &lt 6 DEL
                         >;
                 };
                 navig_layer {
